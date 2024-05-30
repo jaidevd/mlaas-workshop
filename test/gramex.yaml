@@ -1,0 +1,8 @@
+url:
+  home:
+    pattern: /$YAMLURL/
+    handler: FunctionHandler
+    kwargs:
+      function: main.default
+      headers:
+        Content-Type: text/html
